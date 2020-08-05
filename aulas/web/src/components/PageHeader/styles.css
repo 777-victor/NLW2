@@ -9,12 +9,12 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-self: center !important;
     color: var(--color-text-in-primary);
     padding: 1.6rem 0;
 }
 
-.page-header .top-bar-container a {
+.page-header .top-bar-container img {
     height: 3.2rem;
     transition: opacity 0.2;
 }
@@ -23,7 +23,7 @@
     height: 1.6rem;
 }
 
-.page-header .top-bar-container a:hover {
+.page-header .top-bar-container img:hover {
     opacity: 0.6;
 }
 
@@ -38,6 +38,14 @@
     font: 700 3.6rem Archivo;
     line-height: 4.2rem;
     color: var(--color-title-in-primary);
+}
+
+.page-header .header-content p {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color:  var(--color-text-in-primary);
+    margin-top: 2.4rem;
 }
 
 @media (min-width: 700px) {
