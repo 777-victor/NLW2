@@ -1,2 +1,2 @@
 # NLW2
- Praticando com o curso da rocktseat
+ Praticando React Native,typeScrypt e outras ferramentas com o curso da rocktseat
